@@ -1,0 +1,164 @@
+.container-menu {
+    justify-content: space-between;
+   background-color: transparent;
+  
+}
+
+.container-top-above {
+    background-image: url("../img/Banner-Image-1.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+/**Invierto la lines para que el texto aparezca antes que la imagen y no se me junten dos imagenes y dos textos en versión movil**/
+#uno {
+    @media (max-width: 770px){
+    flex-direction: column-reverse;
+}
+}
+
+.text-center {
+    color: #fff;
+
+}
+
+.row {
+    flex-direction: row;
+    display:flex;
+    align-items: center;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    row-gap: 0px!important;
+    column-gap: 0px!important;
+   
+}
+.row>* {
+   padding-left: 0px!important;
+   padding-right: 0px!important;
+  
+}
+
+.btn-outline-dark {
+    margin-left: 40px;
+    border: 2px solid;
+}
+.a:hover {
+    text-anchor:#fff
+}   
+   
+
+
+.col-md-4 .col-xs-12 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.miramenu {
+    margin-left: 40px;
+    margin-right: 3em;
+    
+}
+.menumira {
+    margin-left: 40px;
+}
+.card-body {
+    height: 50vh;
+}
+
+.card1 {
+    background-image: url("../img/grid1.jpg");
+    color: #fff;
+    
+}
+
+.card2 {
+    background-image: url("../img/grid2.jpg");
+    color: #fff;
+    
+}
+
+.card3 {
+    
+    background-image: url("../img/grid1.jpg");
+    color: #fff;
+}
+
+.card4 {
+    background-image: url("../img/grid4.jpg");
+    color: #fff;
+}
+
+.card5 {
+    background-image: url("../img/grid4.jpg");
+    color: #fff;
+}
+
+.gallery-block {
+    column-gap: 0px;
+    row-gap: 0px;
+   
+}
+
+.container-fluid {
+    padding: 0px;
+    overflow-x: hidden!important;
+}
+
+
+#text-1 {
+    @media (max-width: 770px){
+    flex-direction: column-reverse;
+    }
+}
+::marker {
+    /* Estilos personalizados para los marcadores de lista */
+    color: transparent; /* Cambia el color a rojo, por ejemplo */
+    font-size: 18px; /* Cambia el tamaño de fuente */
+  }
+  .ul {
+    text-align: center;
+  }
+  .menu-heading {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+#menu-tab-content{
+    margin-top: 3em;
+}
+
+.menu-carta-top {
+    margin-top: 3em;
+}
+
+
+.boton-flotante{
+    float: right;
+    margin-right: 5em;
+    margin-bottom: 5em;
+    border: solid 2px;
+    border-radius:80px;
+    color: black;
+}
+#img-fondo{
+    background-image: url('../img/Banner-Image-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#bajarform {
+padding-top: 10%;
+justify-content: center;
+margin: 0px!important;
+@media (min-width: 576px){
+    padding-left: 1em;
+    padding-right: 1em;
+}
+}
+
+
+
