@@ -37,12 +37,12 @@
     column-gap: 0px!important;
    
 }
-.row>* {
+/**.row>* {
 
    padding-left: 0px!important;
    padding-right: 0px!important;
   
-}
+}**/
 
 .btn-outline-dark {
     margin-left: 40px;
@@ -154,12 +154,13 @@
 }
 
 #bajarform {
-padding-top: 10%;
+padding-top: 20%;
 justify-content: center;
 margin: 0px!important;
 @media (min-width: 576px){
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    padding-top: 10%;
 }
 }
 
